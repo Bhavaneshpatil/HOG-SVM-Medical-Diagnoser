@@ -91,6 +91,22 @@ Future updates will include:
 
 ---
 
+## Model Performance
+
+The HOG features were classified using an RBF Support Vector Machine (SVM).
+
+| Metric | NORMAL | PNEUMONIA |
+|--------|--------|-----------|
+| Precision | 0.97 | 0.71 |
+| Recall | 0.32 | 0.99 |
+| F1-score | 0.48 | 0.83 |
+
+**Overall Accuracy: 74%**
+
+The model achieved strong recall for pneumonia detection, correctly identifying most pneumonia cases in the test set.
+
+---
+
 ## Author
 
 **Bhavanesh Patil**
