@@ -65,7 +65,7 @@ This project uses a publicly available Chest X-ray Pneumonia dataset.
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HOG-SVM-Medical-Diagnoser.git
+git clone https://github.com/Bhavaneshpatil/HOG-SVM-Medical-Diagnoser.git
 ```
 
 Install the required libraries
@@ -78,16 +78,40 @@ Open the notebook located in the `notebooks` folder and execute the cells sequen
 
 ---
 
-## Current Status
+## Project Status
 
-🚧 This repository is currently under active development.
+✅ The main HOG-SVM pneumonia detection pipeline has been implemented and evaluated.
 
-Future updates will include:
-- Detailed documentation
-- Sample outputs
-- Model performance metrics
-- Screenshots
-- Project report
+The repository includes:
+
+- Complete image preprocessing pipeline
+- HOG feature extraction
+- RBF SVM classification with GridSearchCV
+- Model performance evaluation
+- Confusion matrix visualization
+- Prediction example on an unseen test image
+- Trained SVM model
+- Project workflow diagram
+
+---
+
+## Project Visualizations
+
+### HOG Feature Visualization
+
+![HOG Feature Visualization](images/hog_visualization.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Prediction Example
+
+![Prediction Example](images/prediction_example.png)
+
+### Project Workflow
+
+![Project Workflow](images/project_workflow.png)
 
 ---
 
